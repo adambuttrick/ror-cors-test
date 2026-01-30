@@ -17,9 +17,3 @@ npm start
 ```
 
 Open http://localhost:4200
-
-## Deploy
-
-Push to main — GitHub Actions will deploy to GitHub Pages automatically.
-
-Requires enabling Pages in repo settings (Source: GitHub Actions).
