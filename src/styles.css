@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&display=swap');
+
+:root {
+  color-scheme: light;
+  font-family: "Atkinson Hyperlegible", "Inter", "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  --bg: #ffffff;
+  --border: #e4e8eb;
+  --muted: #5b6367;
+  --text: #1f1f24;
+  --accent: #2f9f91;
+  --accent-dark: #1d736b;
+  --neutral-chip: #e3f1ee;
+  --error: #e0004d;
+  --error-bg: #fef2f2;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--bg);
+  color: var(--text);
+}
