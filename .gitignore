@@ -1,6 +1,5 @@
 # Dependencies
 node_modules/
-package-lock.json
 
 # Build output
 dist/
@@ -10,8 +9,7 @@ bazel-out/
 
 # IDE
 .idea/
-.vscode/*
-!.vscode/extensions.json
+.vscode/
 *.swp
 *.swo
 *~
